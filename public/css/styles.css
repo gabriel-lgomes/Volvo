@@ -2,3 +2,28 @@ body {
   background: white;
   color: black;
 }
+
+.swiper {
+  max-width: 1100px !important;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+@media (max-width: 768px) {
+  .swiper-pagination {
+    display: block !important;
+  }
+  .paginationDesktop {
+    display: none !important;
+  }
+}
